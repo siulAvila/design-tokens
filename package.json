@@ -1,12 +1,11 @@
 {
-  "name": "design-tokens",
+  "name": "@siul/design-tokens",
   "version": "1.0.0",
   "description": "Design tokens from Meiuca's course design system",
   "main": "index.js",
   "scripts": {
     "build": "node src/index.js",
-    "build:dev": "rm -rf dist && node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:dev": "rm -rf dist && node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   "bugs": {
     "url": "https://github.com/siulAvila/design-tokens/issues"
   },
+  "files":["dist"],
   "homepage": "https://github.com/siulAvila/design-tokens#readme",
   "dependencies": {},
   "devDependencies": {

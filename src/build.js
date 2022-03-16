@@ -2,11 +2,11 @@ const StyleDictionaryPackage = require("style-dictionary");
 const { registerConfig } = require("./config");
 
 async function buildTokens({ current, buildPath }) {
-  const styleDictionaryextend = StyleDictionaryPackage.extend(
+  const styleDictionaryExtend = StyleDictionaryPackage.extend(
     registerConfig({ current, buildPath })
   );
 
-  styleDictionaryextend.buildAllPlatforms();
+  styleDictionaryExtend.buildAllPlatforms();
 }
 
 module.exports = {
