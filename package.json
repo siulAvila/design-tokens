@@ -1,6 +1,6 @@
 {
-  "name": "@siul/design-tokens",
-  "version": "1.0.0",
+  "name": "@siulAvila/design-tokens",
+  "version": "1.0.1",
   "description": "Design tokens from Meiuca's course design system",
   "main": "index.js",
   "scripts": {
